@@ -3,7 +3,10 @@ import Head from 'next/head'
 const Home = () => {
   return (
     <div>
-      Getting started
+      <Head>
+        <title>Home</title>
+      </Head>
+      <h1>Portfolio</h1>
     </div>
   )
 }
